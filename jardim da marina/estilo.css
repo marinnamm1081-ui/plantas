@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(fundo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: fantasy;
+    margin: 0;
+    
+    
+}
+
+
+header{
+    font-size: 1.2em;
+    text-align: center;
+    font-family: cursive;
+    color: rgb(83, 42, 83);
+}
+
+
+
+nav, a{
+    padding: 20px; /* espacamento dos itens lado a lado */
+    color: blueviolet;
+    text-decoration: none;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+nav, a:hover{
+    color: rgb(41, 28, 54);
+    
+}
+
+.container{
+    width: 80%; /* Ele é usado para definir a LARGURA de um elemento (como uma div, imagem, botão, etc.. )*/
+    margin: auto;
+    padding: 20px;  /* Espaço interno */ 
+}
+
+.card{
+   padding: 20px;
+   margin-top: 20px;
+   border-radius: 10px; /* Aredonda os cantos de um elemento */
+   box-shadow: 0px 0px 10px rgba(54, 27, 39, 0.406) ;  /* Sombra em um elemento */
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    margin-top: 0px; /* Espaço acima de um elemento */
+}
+button{
+    background-color: rgba(255, 192, 203, 0.161);
+    font-family: fantasy;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: rgba(234, 150, 199, 0.593);
+    color: rgba(52, 19, 44, 0.828);
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px pink;
+    transition-duration: 1s;
+}
