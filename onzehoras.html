@@ -6,19 +6,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Onze horas</title>
     <style>
+        *{
+            margin: 0;
+            min-width: 401px;
+            max-width: 1500px;
+            
+        }
+        @media(max-width:401px) {
+            h1{
+                color: brown;
+                font-family: fantasy;
+            }
+    
+        }
+
+        @media (min-width:401px) and (max-width:1500px){
+            body{
+                margin: 0;
+                padding: 0;
+
+
+            }
+            header{
+                margin: 0;
+                padding: 0;
+                
+                
+            }
+            h1{
+                font-family: fantasy;
+            }
+            
+        }
+     
+     
      body{
-        background-color: rgba(253, 205, 255, 0.877);
+       
         margin: 0;
+        padding: 0;
+        
+        
+        
+
+    
+        
        
      }
-     header{
-        background-color: rgba(216, 191, 216, 0.886);
+     h1{
+        padding:30px;
+        margin: 0;
+        width: 80%;
         text-align: center;
+
+     }
+     header{
+        background-color: rgba(226, 198, 226, 0.886);
+        text-align: center;
+        border-radius: 20px;
+        margin:0;
+        align-items:  center;
+        padding: 0;
+        padding-inline: inherit;
+        min-width: 480px;
+        max-width: auto;
+        
+        
+        
+        
+        
      }
      #primeiro{
        background-image:linear-gradient( to left, rgb(237, 179, 236), rgba(235, 178, 224, 0.603), rgba(239, 135, 208, 0.141));
        border-radius: 20px;
        box-shadow: 10px;
+       min-width: 401;
+       max-width: 1500px;
+       margin: 0;
+       align-items:center;
+       padding: 17px;
+
         
 
      }
@@ -28,6 +94,9 @@
         border-radius: 10px;
         color: rgba(245, 240, 240, 0.914);
         background-image: url("10491448.jpg");
+        min-width: 451px;
+        max-width: 1500px;
+
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
@@ -41,13 +110,14 @@
     }
     p{
         background-color: rgba(29, 27, 27, 0.61) ;
-        margin: 90px;
+        margin:0;
         text-indent: 20px;
-        width: 700px;
+        min-width: 451px;
+        max-width: 1500px;
         height: 300px;
-        padding: 30px;
+        padding: 10px;
         display: flex;
-        align-items: center;
+        align-items:  center;
         justify-content: center;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 20px;
@@ -56,12 +126,11 @@
     article{
         background-color: rgba(0, 0, 0, 0.296);
         display:inline-block;
-        width: 700px;
-        height: 300px;
+        
         padding: 30px;
         justify-content: center;
         align-items: center;
-        margin: 90px;
+        margin:0;
         display:block;
     }
     
